@@ -1,0 +1,42 @@
+<h1>
+    Loan Eligibility Prediction
+</h1>
+
+<form method="POST" id="myForm" action="/">
+  Current Loan Amount: <input name="Current Loan Amount"/>
+  <br/><br/>
+  Term: <input name="Term"/>
+  <br/><br/>
+  Credit Score: <input name="Credit Score"/>
+  <br/><br/>
+  Annual Income: <input name="Annual Income"/>
+  <br/><br/>
+  Years in current job: <input name="Years in current job"/>
+  <br/><br/>
+  Home Ownership: <input name="Home Ownership"/>
+  <br/><br/>
+  Purpose: <input name="Purpose"/>
+  <br/><br/>
+  Monthly Debt: <input name="Monthly Debt"/>
+  <br/><br/>
+  Years of Credit History: <input name="Years of Credit History"/>
+  <br/><br/>
+  Number of Open Accounts: <input name="Number of Open Accounts"/>
+  <br/><br/>
+  Number of Credit Problems: <input name="Number of Credit Problems"/>
+  <br/><br/>
+  Current Credit Balance: <input name="Current Credit Balance"/>
+  <br/><br/>
+  Maximum Open Credit: <input name="Maximum Open Credit"/>
+  <br/><br/>
+  Bankruptcies: <input name="Bankruptcies"/>
+  <br/><br/>
+  Tax Liens: <input name="Tax Liens"/>
+  <br/><br/>  
+  <button type="submit">Submit</button>
+</form>
+<br><br>
+{% if index%}
+      <span class="totalresult">{{index}}</span>
+      </div>      
+{% endif%}
